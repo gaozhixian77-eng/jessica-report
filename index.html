@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questionnaire Interface</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="reading-passage">
+            <h2>English Reading Passage</h2>
+            <p>
+                This is where the English reading passage goes. It should be informative and engaging to capture the reader's attention.
+            </p>
+        </div>
+        <div class="color-sorting-game">
+            <h2>Color Sorting Game</h2>
+            <div class="game-area">
+                <div class="box red-box" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+                <div class="box yellow-box" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+                <div class="box blue-box" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+            </div>
+            <div class="balls">
+                <div class="ball red" draggable="true" ondragstart="drag(event)"></div>
+                <div class="ball yellow" draggable="true" ondragstart="drag(event)"></div>
+                <div class="ball blue" draggable="true" ondragstart="drag(event)"></div>
+            </div>
+        </div>
+        <div class="entertainment-news">
+            <h2>Entertainment News</h2>
+            <p>
+                Here will be the latest entertainment news articles. Make sure to keep this updated!
+            </p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
